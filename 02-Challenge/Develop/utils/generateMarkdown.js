@@ -129,7 +129,7 @@ function generateMarkdown(data) {
   ${data.test}
 
  ## Questions 
-  ${data.projectQuestion}
+  ${data.projectQuestions}
 `;
 }
 
