@@ -104,8 +104,8 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [License](#license)
   - [Contributions](#contributions)
-  - [Screen Shot](#screenShot)
-  - [Project Links](#projectLInks)
+  - [Test](#test)
+  - [Questions](#questions)
 
  ## Installation
   ${data.projectSetup}
@@ -125,10 +125,10 @@ function generateMarkdown(data) {
  ## Contributions 
   ${data.projectCollab}
 
- ## Screen Shot 
-  ${data.screenShot}
+ ## Test 
+  ${data.test}
 
- ## Project Links 
+ ## Questions 
   ${data.projectQuestion}
 `;
 }
