@@ -51,7 +51,7 @@ const userPrompt = () => {
     {
       type: "input",
       name: "projectQuestions",
-      message: 'Are there any questions or unfinished information on this project?',
+      message: 'How do you report issues or questions on this project?',
     },
   ]);
 };
