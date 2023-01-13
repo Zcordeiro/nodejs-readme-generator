@@ -59,7 +59,7 @@ const userPrompt = () => {
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, generateMarkdown(data), (err) =>
-    err ? console.log(err) : console.log("Successfully created index.html!")
+    err ? console.log(err) : console.log("Successfully created README!")
   );
 }
 

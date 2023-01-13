@@ -19,6 +19,8 @@
  ## Usage 
   When the files are in place run NodeJs, you will be prompted with some questions once the questions are answered the responses will be used to populate your README.
 
+  ![Screen Shot of Demo](./02-Challenge/Develop/assets/screenshotofDemo.gif)
+
 
 
  ## License 
@@ -32,7 +34,9 @@
   N/A
 
  ## Test 
-  No Test Needed
+  Link to the Repo - https://github.com/Zcordeiro/nodejs-readme-generator
+
+  Link to the Google Drive Video - https://drive.google.com/drive/folders/1y_3I3ytpejhsdAfJzsDGAiwcaT-LEjL7?usp=sharing
 
  ## Reporting 
   Email zeus.cordeiro@gmail.com
