@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
     return "[![License: Open Font-1.1](https://img.shields.io/badge/License-OFL_1.1-lightgreen.svg)](https://opensource.org/licenses/OFL-1.1)";
   } else if (license == "The Unlicense") {
     return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
-  } else return " ";
+  } else return "N/A";
 }
 
 // TODO: Create a function that returns the license link
@@ -96,7 +96,7 @@ function generateMarkdown(data) {
   return `
   # ${data.projectName} 
 
-  ## Description {#description}:
+  ## Description
   ${data.projectDescription}
 
   ## Table of Contents:
@@ -104,8 +104,8 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [License](#license)
   - [Contributions](#contributions)
-  - [Test](#test)
-  - [Questions](#questions)
+  - [Testing](#testing)
+  - [Reporting](#reporting)
 
  ## Installation
   ${data.projectSetup}
@@ -125,10 +125,10 @@ function generateMarkdown(data) {
  ## Contributions 
   ${data.projectCollab}
 
- ## Test 
+ ## Testing 
   ${data.test}
 
- ## Questions 
+ ## Reporting
   ${data.projectQuestions}
 `;
 }

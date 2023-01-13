@@ -66,7 +66,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   userPrompt().then((data) => {
-    writeToFile("README.md", data);
+    writeToFile("./smpl/README.md", data);
   });
 }
 
