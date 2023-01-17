@@ -19,7 +19,7 @@
  ## Usage 
   When the files are in place run NodeJs, you will be prompted with some questions once the questions are answered the responses will be used to populate your README.
 
-  ![Screen Shot of Demo](./02-Challenge/Develop/assets/screenshotofDemo.gif)
+  ![Screen Shot of Demo](./assets/screenshotofDemo.gif)
 
 
 
